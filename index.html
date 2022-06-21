@@ -14,6 +14,30 @@
     <title>FontIcons</title>
   </head>
   <body>
+    <!-- Header with only logo-->
+    <header>
+      <div class="container">
+        <h1>FontIcons</h1>
+      </div>
+    </header>
+
+    <main>
+      <!-- User Actions -->
+      <div class="main-action">
+        <div class="container flex">
+          <span>FILTRA PER TIPO</span>
+          <select name="category" id="category">
+            <option value="all">All</option>
+            <option value="animal">Animal</option>
+            <option value="vegetable">Vegetable</option>
+            <option value="user">User</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Category Cards -->
+      <div class="js-all-card"></div>
+    </main>
     <script src="js/script.js"></script>
   </body>
 </html>
