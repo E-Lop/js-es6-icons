@@ -21,3 +21,18 @@ sapendo che la notazione esadecimale è formata dal simbolo "#" seguito da 6 car
 // alla funzione do come argomento thisIcon
 
 // uso un ciclo forEach che invoca le due funzioni per ciascun elemento dell'array
+
+// creo delle classi CSS con i singoli colori delle icone, nel ciclo forEan aggiungo le classi appropriate a ciascuna icona generata
+
+// creo il select in HTML e uso gli ID delle option per array.filter
+
+// creo un addEventListener che 1) pulisce il container da tutti box, 2) invoca la funzione che crea i box dando come argomento il risultato di array.filter
+
+// BONUS
+
+// creo funzione per generazione casuale di colori con notazione esadecimale
+// modifico il template HTML per includere la classe style="color:${thisIcon.color};"
+
+// creo un array con i valori di allIconsArray.type
+// creo un array che abbia elementi tutti i select
+// uso la correlazione di array tramite indice per popolare dinamicamente i select (spero)
